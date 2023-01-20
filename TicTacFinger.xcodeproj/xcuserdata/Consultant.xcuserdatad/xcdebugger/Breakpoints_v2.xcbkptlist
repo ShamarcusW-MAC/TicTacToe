@@ -14,8 +14,8 @@
             filePath = "TicTacFinger/ViewModel/Layout.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "registerGeometry(width:height:)"
             landmarkType = "7">
          </BreakpointContent>

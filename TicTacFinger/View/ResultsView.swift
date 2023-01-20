@@ -2,7 +2,7 @@
 //  ResultsView.swift
 //  TicTacFinger
 //
-//  Created by Consultant on 1/13/23.
+//  Created by Sha'Marcus Walker on 1/13/23.
 //
 
 import SwiftUI
@@ -115,7 +115,7 @@ struct ResultsView: View {
     func winXGameView(contentWidth: CGFloat, contentHeight: CGFloat) -> some View {
         
         VStack {
-            Image(systemName: GamePlayer.symbolName0)
+            Image(systemName: GamePlayer.symbolNameX)
                 .font(.system(size: min(contentWidth, contentHeight) * 0.666))
         }
         .foregroundColor(.black)

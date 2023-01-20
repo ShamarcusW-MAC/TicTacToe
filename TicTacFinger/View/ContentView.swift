@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  TicTacFinger
 //
-//  Created by Consultant on 1/11/23.
+//  Created by Sha'Marcus Walker on 1/11/23.
 //
 
 import SwiftUI
@@ -41,31 +41,6 @@ struct ContentView: View {
         }
         
     }
-    
-//
-//        VStack {
-//
-//            HStack {
-//                gameTile(index: 0)
-//                gameTile(index: 1)
-//                gameTile(index: 2)
-//
-//            }
-//            HStack {
-//                gameTile(index: 3)
-//                gameTile(index: 4)
-//                gameTile(index: 5)
-//
-//            }
-//            HStack {
-//                gameTile(index: 6)
-//                gameTile(index: 7)
-//                gameTile(index: 8)
-//            }
-//        }
-//        .padding()
-//    }
-    
         
         func boardContent(layoutGeometry: GeometryProxy) -> some View {
             

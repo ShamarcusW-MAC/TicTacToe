@@ -2,7 +2,7 @@
 //  Layout.swift
 //  TicTacFinger
 //
-//  Created by Consultant on 1/11/23.
+//  Created by Sha'Marcus Walker on 1/11/23.
 //
 
 import Foundation
@@ -39,18 +39,6 @@ struct Layout {
     private(set) var boardY: Int = 0
     private(set) var boardWidth: Int = 0
     private(set) var boardHeight: Int = 0
-    
-
-//    struct Tile: Identifiable {
-//        var x: CGFloat
-//        var y: CGFloat
-//        var width: CGFloat
-//        var height: CGFloat
-//        var index: Int
-//        var id: String {
-//            "\(x)_\(y)_\(width)_\(height)_\(index)"
-//        }
-//    }
     
     init() {
         self.boardSeparators = [Separator](repeating: Separator(x: 0.0, y:0.0, width: 0.0, height: 0.0), count: 4)

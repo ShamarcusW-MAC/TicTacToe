@@ -68,7 +68,7 @@ struct Layout {
                 //Portrait orientation
                 
                 
-                let size = min(_worldHeight - 32, 600)
+                let size = min(_worldHeight - 32, 450)
                 
                 boardX = _worldWidth / 2 - size / 2
                 boardY = _worldHeight / 2 - size / 2
